@@ -1,0 +1,111 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    min-height: 100vh;
+}
+
+.cover {
+    min-height: 100vh;
+    background-image: url("asset/jpg/background.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 40px 20px;
+}
+
+.bi-heart-fill{
+    font-size: 20px;
+    margin-bottom: 7px;
+    color: #caaa1b;
+}
+
+#text-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#wedding-of{
+    margin: 5px;
+    color: #caaa1b;
+    letter-spacing: 2px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+
+}
+
+#nama-mempelai{
+    margin-top: 5px;
+    font-size: 45px;
+}
+.tamu-undangan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #caaa1b;
+    border-radius: 25px;
+    margin-left: 15px;
+    margin-top: 30px;
+    padding: 30px;
+    width: 300px;
+}
+
+#rasa_hormat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#yth{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    padding: 5px;
+    font-size: 15px;
+}
+
+#tamu{
+    margin-top: 24px;
+    font-size: 23px;
+    color: #caaa1b;
+
+}
+
+.btn {
+    display: inline-block;
+    padding: 5px 20px;
+    border: 1px solid #caaa1b;
+    text-decoration: none;
+    color: black;
+    border-radius: 25px;
+
+    
+  
+    transition: all 0.3s ease;
+    transition-delay: 0.1s;
+
+}
+
+.bi-envelope-open{
+    margin-right: 5px;
+}
+
+.btn:hover{
+    color: rgb(255, 255, 255);
+    background: #caaa1b;
+}
+

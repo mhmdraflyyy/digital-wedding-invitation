@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan digital</title>
+    <link rel="stylesheet" href="undangan_style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+    <div class="container-menu">
+        <div>
+            <a href="#slide-pertama"><i class="bi-house-door"></i></a>
+            <a href="#slide-kedua"><i class="bi-people"></i></a>
+            <a href="#slide-ketiga" ><i class="bi-geo-alt"></i></a>
+            <a href="#slide-keempat"><i class="bi-gift"></i></a>
+        </div>
+    </div>
+
+    <div id="audio-container">
+        <audio id="song" loop>
+            <source src="asset/mp3/audio.mp3" type="audio/mpeg">
+        </audio>
+
+        <div class="audio-icon-wrapper" id="audioBtn">
+            <i class="bi bi-disc"></i>
+        </div>
+    </div>
+
+    <div class="first-slide" id="slide-pertama">
+        <div class="mempelai">
+            <blockquote id="bismilah">
+                بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ
+            </blockquote>
+
+            <q id="surah-arum"><i>Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang.</i></q>
+            <p id="nama-surah">- Q.S. Arum:21 -</p>
+
+            <p id="walimatul">WALIMATUL 'URSY</p>
+            <p id="name">Arkhan & Putri</p>
+            <p id="day"><i class="bi bi-calendar-event-fill"></i>Sabtu 12 Desember 2026</p>
+
+            <div class="countdown">
+                <div class="countdown-box">
+                    <span id="hari">00</span>
+                    <p>Hari</p>
+                </div>
+
+                <div class="countdown-box">
+                    <span id="jam">00</span>
+                    <p>Jam</p>
+                </div>
+
+                <div class="countdown-box">
+                    <span id="menit">00</span>
+                    <p>Menit</p>
+                </div>
+
+                <div class="countdown-box">
+                    <span id="detik">00</span>
+                    <p>Detik</p>
+                </div>
+            </div>
+
+        </div>
+        
+    </div >
+
+        <div class="mempelai-pengantin" id="slide-kedua">
+            <h3 id="header-mempelai">Mempelai Pria & Wanita</h3>
+            <p>Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud menyelenggarakan pernikahan putra-putri kami:</p>  
+        </div>
+
+    
+    <div class="card-mempelai">
+        <div class="mempelai-pria">
+            <img src="asset/jpg/Pengantin pria.png" alt="gambar-pria">
+            <p id="nama-pria">Muhammad Arkhan</p>
+            <p id="anak-dari">Putra kedua dari:</p>
+            <p>bapak Hendra Pratama dan ibu Siti</p>
+            <p id="ig-pria"><i class="bi bi-instagram"></i>_mhmdarkhann</p>
+        </div>
+
+        <div class="dan">
+            <p>&</p>
+        </div>
+        
+         <div class="mempelai-wanita">
+            <img src="asset/jpg/Pengantin wanita.png" alt="gambar-wanita">
+            <p id="nama-wanita">Putri Maharani</p>
+            <p id="anak-dari">Putri pertama dari:</p>
+            <p>bapak Ahmad dan ibu Dewi Lestari</p>
+            <p id="ig-wanita"><i class="bi bi-instagram"></i>putrimhrni</p>
+        </div>      
+    </div>
+
+    <div class="pelaksanaan" id="slide-ketiga">
+        <h3 id="header-pelaksanaan">Rangkaian Acara</h3>
+        <p>Insya Allah rangkaian acara pernikahan kami akan dilaksanakan pada:</p>
+    </div>
+
+    <div class="card-pelaksanaan">
+        <div class="akad-nikah">
+            <i class="bi-heart-pulse-fill"></i>
+            <b id="nama-acara-1">Akad Nikah</b>
+            <p id="icon"><i class="bi-calendar-event-fill"></i>Sabtu 12 Desember 2026</p>
+            <p id="jam-akad"><i class="bi-clock"></i>Pukul 08.00 - 10.00 WIB</p>
+            <b><i class="bi-geo-alt-fill"></i>Masjid Arjuna Jawa Timur</b>
+            <p id="jalan">Jl mulyo jaten Rt.01 Rw.02 Kec.Jogorogo Ngawi Jawa Timur</p>
+        </div>
+
+        <div class="resepsi">
+            <i class="bi-cup-hot-fill"></i>
+            <b id="nama-acara-2">Resepsi Pernikahan</b>
+            <p id="icon"><i class="bi-calendar-event-fill"></i>Sabtu 12 Desember 2026</p>
+            <p id="jam-resepsi"><i class="bi-clock"></i>Pukul 11.00 - 14.00 WIB</p>
+            <b><i class="bi-geo-alt-fill"></i>Masjid Arjuna Jawa Timur</b>
+            <p id="jalan">Jl mulyo jaten Rt.01 Rw.02 Kec.Jogorogo Ngawi Jawa Timur</p>
+        </div>
+
+    </div>
+
+    <div class="lokasi" >
+        <h3><i class="bi-geo-alt-fill"></i>Peta Lokasi Acara</h3>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.1979364326334!2d111.23728658903937!3d-7.556764553412931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e79f305875b77e9%3A0xf40919f943d52fe6!2sMasjid%20arjuno!5e0!3m2!1sid!2sid!4v1792265053072!5m2!1sid!2sid"
+            width="600" 
+            height="450" 
+            style="border:0;
+            " allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="strict-origin-when-cross-origin"
+            ></iframe>
+        </div>
+    </div>
+
+    <div class="hadiah-pernikahan" id="slide-keempat">
+        <h3>Hadiah Pernikahan</h3>
+        <p>Doa restu Anda ialah hadiah terindah bagi kami. Namun jika Anda ingin memberikan tanda kasih secara digital, Anda dapat menggunakan fitur di bawah ini:</p>
+    </div>
+    
+    <div class="card-hadiah">
+        <div class="mandiri">
+            <i class="bi-credit-card"></i>
+            <p id="bank-m">Mandiri</p>
+            <p id="norek">Nomor Rekening:</p>
+            <b>1410028368306</b>
+            <p id="nomor">a.n Muhammad Rafli</p>
+        </div>
+
+        <div class="bri">
+            <i class="bi-credit-card"></i>
+            <p id="bank-b">BRI</p>
+            <p id="norek">Nomor Rekening:</p>
+            <b>764501015165531</b>
+            <p id="nomor">a.n Muhammad Rafli</p>
+        </div>
+    </div>
+
+    <div class="qris">
+        <h5><i class="bi-qr-code-scan"></i>Scan Qris Gift</h5>
+        <p>Mendukung GoPay, OVO, Dana, ShopeePay, & Semua E-Wallet / Mobile Banking</p>
+        <img src="asset/jpg/qriss.jpeg" alt="scan-qr">
+        <p id="nama-qr">a.n Muhammad Rafli</p>
+    </div>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>

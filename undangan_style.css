@@ -1,0 +1,694 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #F7F3EA;
+}
+
+.mempelai{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #caaa1b;
+    width:500px;
+    margin-left: 370px;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 150px 150px 15px 15px;
+    background-color: white;
+
+}
+
+.mempelai p i{
+    color: #caaa1b;
+    margin: 5px;
+}
+
+#bismilah{
+    margin-top: 15px;
+    font-size: 40px;
+    padding: 13px;
+    color: #caaa1b;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+
+}
+
+#surah-arum{
+    margin-top: 15px;
+    font-size: 15px;
+    margin-bottom: 2px;
+    padding: 13px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+
+}
+
+
+
+#walimatul{
+    margin:20px;
+    color: #caaa1b;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    letter-spacing: 2px;
+}
+
+#name{
+    margin:20px;
+    font-size: 35px;
+}
+
+#day{
+    margin: 20px;
+    margin-bottom: 40px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.first-slide{
+    background-color: #F7F3EA;
+    scroll-margin-top: 70px; 
+}
+
+#header-mempelai{
+    font-size: 35px;
+    margin: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    scroll-margin-top: 70px; 
+}
+
+.mempelai-pengantin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 80px;
+}
+
+.mempelai-pengantin p{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.card-mempelai{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+
+.mempelai-pria{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border: 2px solid #caaa1b;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-left: 145px ;
+    background-color: white;
+
+    transition: all 0.3s ease;
+}
+
+.mempelai-pria:hover{
+    box-shadow: 0 0 0 2px #caaa1b; 
+    transform: translateY(-2px); 
+}
+
+.mempelai-pria img{
+    border: 3px solid #caaa1b;
+    border-radius: 1000px;
+    width: 230px;
+}
+
+#nama-pria{
+    margin-top: 50px;
+    font-size: 25px;
+    margin-bottom: 3px;
+}
+
+#ig-pria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7px;
+    width: 150px;
+    font-size: 17px;
+    border: 1px solid #caaa1b;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    transition-delay: 0.1s;
+}
+
+#ig-pria:hover{
+    background-color: #caaa1b;
+    color: white;
+}
+
+#ig-pria i{
+    margin: 4px;
+}
+
+.dan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    margin-left: 150px;
+    color: #caaa1b;
+
+}
+
+.mempelai-wanita{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border: 2px solid #caaa1b;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-left: 150px ;
+    margin-right: 110px;
+    background-color: white;
+
+    transition: all 0.3s ease;
+}
+
+.mempelai-wanita:hover{
+    box-shadow: 0 0 0 2px #caaa1b; 
+    transform: translateY(-2px); 
+}
+
+.mempelai-wanita img{
+    border: 3px solid #caaa1b;
+    border-radius: 1000px;
+    width: 230px;
+}
+
+#nama-wanita{
+    margin-top: 50px;
+    font-size: 25px;
+    margin-bottom: 3px;
+
+}
+
+#ig-wanita{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7px;
+    width: 150px;
+    font-size: 17px;
+    border: 1px solid #caaa1b;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    transition-delay: 0.1s;
+}
+
+#ig-wanita:hover{
+    background-color: #caaa1b;
+    color: white;
+}
+
+#ig-wanita i{
+    margin:4px;
+}
+
+#anak-dari{
+    color: #caaa1b;
+}
+
+#header-pelaksanaan{
+    font-size: 35px;
+    margin: 30px;
+    font-family: 'Cormorant Garamond', serif;
+    scroll-margin-top: 70px; 
+}
+
+.pelaksanaan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 80px;
+   
+}
+
+.pelaksanaan p{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.card-pelaksanaan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+.akad-nikah{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border: 2px solid #caaa1b;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-left: 10px ;
+    background-color: white;
+    
+    transition: all 0.3s ease;
+}
+
+.akad-nikah:hover{
+    box-shadow: 0 0 0 2px #caaa1b; 
+    transform: translateY(-2px);
+}
+
+.akad-nikah i{
+    margin-right: 9px;
+
+}
+
+#icon{
+    margin-right: 21px;
+}
+
+#jam-akad{
+    margin-right: 25px;
+    margin-top: 1px;
+    margin-bottom: 8px;
+
+}
+
+.akad-nikah b{
+    margin-right: 20px;
+}
+
+
+.resepsi{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border: 2px solid #caaa1b;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-left: 170px ;
+    background-color: white; 
+    
+    transition: all 0.3s ease;
+}
+
+.resepsi:hover{
+    box-shadow: 0 0 0 2px #caaa1b; 
+    transform: translateY(-2px);
+}
+
+.resepsi i{
+    margin-right: 9px;
+}
+
+#jam-resepsi{
+    margin-right: 37px;
+    margin-top: 1px;
+    margin-bottom: 8px;
+}
+
+.resepsi b{
+    margin-right: 20px;
+}
+
+#jalan{
+    font-size: 12px;
+}
+.bi-calendar-event-fill{
+    color: #caaa1b;
+}
+.bi-clock{
+    color: #caaa1b;
+}
+
+.bi-geo-alt-fill{
+    color: #caaa1b;
+}
+
+#nama-acara-1{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-size: 25px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#nama-acara-2{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-size: 25px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.bi-cup-hot-fill{
+    font-size: 50px;
+    padding-top: 20px;
+    color:#caaa1b;
+}
+
+.bi-heart-pulse-fill{
+    font-size: 50px;
+    padding-top: 20px;
+    color: #caaa1b;
+}
+
+.lokasi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 790px;
+    border: 2px solid #caaa1b;
+    border-radius: 12px;
+    margin-left: 242px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.lokasi h3{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.lokasi h3 i{
+    font-size: 20px;
+    margin-top: 4px;
+    margin-right: 4px;
+}
+
+.map iframe{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 750px;
+    height: 400px;
+    border-radius: 12px;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin: 30px auto;
+}
+
+.countdown-box {
+    width: 85px;
+    height: 100px;
+    background-color: #0D2B22;
+    border: 1px solid #C9A052;
+    border-radius: 20px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.countdown-box span {
+    font-family: Georgia, serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #E5D0A0;
+}
+
+.countdown-box p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #B7B092;
+    margin: 12px 0 0;
+}
+
+.btn-buka{
+    width: 225px;
+    height: 45px;
+    border: 1px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.card-pelaksanaan p {
+    margin: 5px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.hadiah-pernikahan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 80px;
+    scroll-margin-top: 70px; 
+}
+.hadiah-pernikahan h3 {
+    font-size: 35px;
+    margin: 30px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.hadiah-pernikahan p{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 15px;
+}
+
+.card-hadiah{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.mandiri{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border: 2px solid #caaa1b;
+    border-radius: 25px;
+    padding: 20px;
+    margin-left: 10px ;
+    background-color: white;  
+    font-family: Georgia, serif;
+    margin-top: 2px;
+    transition: all 0.3s ease;
+    transition-delay: 0.1s;
+}
+
+.mandiri:hover{
+    box-shadow: 0 0 0 2px #caaa1b; 
+    transform: translateY(-2px);
+}
+
+.bri{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border: 2px solid #caaa1b;
+    border-radius: 25px;
+    padding: 20px;
+    margin-left: 170px ;
+    background-color: rgb(255, 253, 253); 
+    font-family: Georgia, serif;
+    transition: all 0.3s ease;
+    transition-delay: 0.1s;
+    
+}
+
+.bri:hover{
+    box-shadow: 0 0 0 2px #caaa1b; 
+    transform: translateY(-2px);
+}
+
+
+#bank-m{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #caaa1b;
+    background-color: black;
+    margin-bottom: 15px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bold;
+    
+}
+
+#bank-b{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: #caaa1b;
+    background-color: black;
+    margin-bottom: 15px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bold;
+}
+
+#norek{
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+#nomor{
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.bi-credit-card{
+    font-size: 25px;
+    display: flex;
+    justify-content: right;
+    margin-bottom: 25px;
+    color: #caaa1b;
+
+}
+
+.qris{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 790px;
+    border: 2px solid #caaa1b;
+    border-radius: 12px;
+    margin-left: 242px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    background-color: white;
+
+}
+
+.qris h5{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.qris p{
+
+    display: flex;
+    justify-content: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.qris img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin-left: 270px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #caaa1b;
+    border-radius: 20px;
+    background-color: white;
+    transition: all 0.3s ease;
+    transition-delay: 0.1s;
+}
+
+.qris img:hover{
+    box-shadow: 0 0 0 2px #caaa1b; 
+    transform: translateY(-2px);
+}
+
+
+#nama-qr{
+    font-family: Georgia, serif;
+    margin-bottom: 10px;
+}
+
+.bi-qr-code-scan{
+    display: flex;
+    gap: 7px;
+    font-size: 20px;
+    margin-top: 4px;
+    margin-right: 8px;
+}
+
+
+.audio-icon-wrapper {
+    cursor: pointer;
+    display: flex;
+    font-size: 2.8rem;
+    color: #caaa1b;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    margin: 15px;
+
+    position: fixed;
+    top: 10px;
+    right: 15px;
+    z-index: 9999;
+    cursor: pointer;
+
+}
+
+.spin {
+    animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.container-menu{
+    border: 2px solid #caaa1b;
+    border-radius: 15px;
+    width: 250px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 500px;
+    background-color: white;
+    
+    position: fixed;
+    bottom: 20px;
+    
+    z-index: 9999;
+    cursor: pointer;
+}
+
+.container-menu:hover{
+    box-shadow: 0 0 0 1px #caaa1b; 
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+    transition-delay: 0.1s;
+}
+.container-menu i{
+    margin: 0 15px;
+    color: rgb(0, 0, 0,);
+}
+
+.container-menu i:hover{
+    color: #caaa1b;
+
+}
